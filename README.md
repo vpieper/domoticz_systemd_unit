@@ -1,5 +1,5 @@
 # Domoticz systemd unit
-Systemd unit file for use with Domotics, since it hasn't one (yet)
+Systemd unit file for use with Domoticz, since it hasn't one (yet)
 
 Builtin restart when not running (main reason I wanted this).
 
