@@ -1,0 +1,13 @@
+[Unit]
+Description=Domoticz Home Automation
+After=network.target
+
+[Service]
+ExecStart=/home/orangepi/domoticz/domoticz -daemon -www 8080 -sslwww 4430
+KillMode=process
+Restart=always
+StartLimitInterval=0
+Type=forking
+
+[Install]
+WantedBy=multi-user.target
