@@ -11,4 +11,4 @@ vi /etc/systemd/system/domoticz.service
 
 systemctl daemon-reload
 
-systemctl enable -now domoticz.service
+systemctl enable --now domoticz.service
